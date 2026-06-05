@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SR9OMP - Przemiennik FM + DMR</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,Arial,sans-serif;
+}
+
+body{
+background:#050505;
+color:white;
+}
+
+.hero2{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+url('hero.png');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+}
+
+.hero-content{
+max-width:1000px;
+}
+
+.hero h1{
+font-size:5rem;
+text-shadow:0 0 20px #00c8ff;
+margin-bottom:15px;
+}
+
+.hero h2{
+font-size:1.6rem;
+font-weight:300;
+margin-bottom:25px;
+}
+
+.status{
+display:inline-block;
+padding:12px 25px;
+background:#00b140;
+border-radius:30px;
+font-weight:bold;
+box-shadow:0 0 20px #00ff66;
+margin-bottom:25px;
+animation:pulse 2s infinite;
+}
+
+@keyframes pulse{
+0%{transform:scale(1);}
+50%{transform:scale(1.05);}
+100%{transform:scale(1);}
+}
+
+.btn{
+display:inline-block;
+padding:15px 30px;
+background:#00c8ff;
+color:black;
+font-weight:bold;
+border-radius:10px;
+text-decoration:none;
+margin-top:20px;
+}
+
+section{
+padding:80px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.section-title{
+font-size:2.5rem;
+margin-bottom:40px;
+text-align:center;
+color:#00c8ff;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#101010;
+padding:25px;
+border-radius:15px;
+border:1px solid #222;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 0 20px rgba(0,200,255,.4);
+}
+
+.card h3{
+margin-bottom:10px;
+color:#00c8ff;
+}
+
+.about{
+font-size:1.1rem;
+line-height:1.8;
+text-align:center;
+max-width:900px;
+margin:auto;
+}
+
+footer{
+padding:40px;
+text-align:center;
+background:#080808;
+border-top:1px solid #222;
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+<div class="hero-content">
+
+<h1>SR9OMP</h1>
+
+<h2>Przemiennik FM + DMR w paśmie 70 cm</h2>
+
+<div class="status">
+🟢 DZIAŁAJĄCY
+</div>
+
+<p>
+Cieszyn • JN99HR
+</p>
+
+<a href="#parametry" class="btn">
+Parametry
+</a>
+
+</div>
+</section>
+
+<section id="parametry">
+
+<h2 class="section-title">
+Parametry przemiennika
+</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Lokalizacja</h3>
+<p>Cieszyn JN99HR</p>
+</div>
+
+<div class="card">
+<h3>Wysokość</h3>
+<p>346 m n.p.m.</p>
+</div>
+
+<div class="card">
+<h3>Antena</h3>
+<p>12 m n.p.g.</p>
+</div>
+
+<div class="card">
+<h3>Nadajnik</h3>
+<p>431.33750 MHz</p>
+</div>
+
+<div class="card">
+<h3>CTCSS</h3>
+<p>77 Hz</p>
+</div>
+
+<div class="card">
+<h3>Tryb pracy</h3>
+<p>FM + DMR</p>
+</div>
+
+<div class="card">
+<h3>Zasięg</h3>
+<p>około 30 km</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">
+O przemienniku
+</h2>
+
+<div class="about">
+
+SR9OMP to lokalny przemiennik FM + DMR pracujący w paśmie 70 cm, zlokalizowany w Cieszynie (JN99HR).
+
+System został uruchomiony z myślą o zapewnieniu niezawodnej łączności radiowej dla krótkofalowców z Cieszyna, Śląska Cieszyńskiego oraz okolicznych regionów.
+
+Przemiennik oferuje pracę zarówno w trybie analogowym FM, jak i cyfrowym DMR. Dzięki korzystnej lokalizacji oraz wysokości instalacji zapewnia pokrycie sygnałem obszaru około 30 kilometrów.
+
+Strona będzie sukcesywnie rozbudowywana o mapę zasięgu, aktualności, galerię zdjęć oraz dodatkowe informacje techniczne.
+
+</div>
+
+</section>
+
+<footer>
+
+SR9OMP © 2026
+
+</footer>
+
+</body>
+</html>
